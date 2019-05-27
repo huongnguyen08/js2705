@@ -1,8 +1,2 @@
-MEAN 
-
-JS 
-NodeJS + Express
-MongoDB
-
-TS
-Angular 
+let a = 1;
+console.log(a);
