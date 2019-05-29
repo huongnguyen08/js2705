@@ -7,7 +7,7 @@
 
 // console.log(arr);
 // push, pop, unshift, shift, splice
-// find, findIndex, map, forEach
+// find, findIndex, map, forEach, filter, fill, sort
 
 // let arr = new Array(1, 3, 5, 4, 22);
 
