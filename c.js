@@ -1,7 +1,23 @@
-//find, findIndex, map, forEach, filter, fill, sort
-let arr = ['Nodejs', 'PHP', 'Android', 'iOS', 'PHP'];
-let arrNumber = [ 1, 4, 3, 9, 81, 121, 34];
+//find, findIndex, map, forEach, filter, fill, sort, reduce
+// let arr = ['Nodejs', 'PHP', 'Android', 'iOS', 'PHP'];
+// arr.sort().reverse()
+// console.log(arr);
 
+let arrNumber = [ 1, 4 ];
+const total = arrNumber.reduce((prev, current)=>prev+current, 10);
+console.log(total)
+
+// arrNumber.sort((a,b)=>a<=b);
+// console.log(arrNumber)
+
+
+// arr.fill('Java',3,4);
+// console.log(arr);
+
+
+// let arrNumber = [ 1, 4, 3, 9, 81, 121, 34, 99, 144 ];
+// let data = arrNumber.filter(element => Math.sqrt(element) === parseInt(Math.sqrt(element)))
+// console.log(data)
 
 // let data = arr.filter(element=>element==='PHP')
 // console.log(data)
