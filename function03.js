@@ -53,6 +53,18 @@ function veHinh3(h=5){
         console.log(str)
     }
 }
-veHinh3()
+// veHinh3()
+function veHinh(h=5, fn){
+    for(let y = 1; y<=h; y++){
+        let str = '';
+        for(let x=1; x<=h;x++){
+            let dk = fn(h,y,x);
+            if(dk) str += '* '
+            else str += '  '
+        }
+        console.log(str)
+    }
+}
+veHinh(5,(h,y,x)=>(y==h || x==y || x==1))
 
 
