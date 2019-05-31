@@ -60,5 +60,7 @@ function kiemTraSoChia5Du4(n){
     return n%5==4;
 }
 
-let a = printNumber(kiemTraSoChia5Du4)
+// let a = printNumber(n=>n%3==1)
+
+let a = printNumber(n=>n%9==8)
 console.log(a);
