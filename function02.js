@@ -62,5 +62,17 @@ function kiemTraSoChia5Du4(n){
 
 // let a = printNumber(n=>n%3==1)
 
-let a = printNumber(n=>n%9==8)
-console.log(a);
+// let a = printNumber(n=>n%9==8)
+// console.log(a);
+
+function printNumber02(soChia, soDu){
+    let data = '';
+    for(let i=0; i<=100; i++){
+        if(i%soChia==soDu){
+            data += i+' ';
+        }
+    }
+    return data;
+}
+console.log(printNumber02(2,1))
+
