@@ -15,11 +15,12 @@
  * 
  *      
  * 
- *      *
- *      * *
- *      *   *  
- *      *     *
- *      * * * * *
+ *      *           y=1,x=1
+ *      * *         y=2,x=1,2
+ *      *   *       y=3,x=1,3
+ *      *     *     y=4,x=1,4
+ *      * * * * *   y=5,x=12345
+ *                   y=h || x=y || x=1
  */
 
 function veHinh1(h=5){
@@ -42,6 +43,16 @@ function veHinh2(h=5){
         console.log(str)
     }
 }
-veHinh2(6)
+function veHinh3(h=5){
+    for(let y = 1; y<=h; y++){
+        let str = '';
+        for(let r=1; r<=h;r++){
+            if(y==h || r==y || r==1) str += '*'
+            else str += ' '
+        }
+        console.log(str)
+    }
+}
+veHinh3()
 
 
